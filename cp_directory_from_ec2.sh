@@ -1,0 +1,1 @@
+scp -i ~/.ssh/dm_deep_learning_kp.pem -r ubuntu@ec2-${IP_ADDRESS}.eu-west-2.compute.amazonaws.com:~/${1} .
